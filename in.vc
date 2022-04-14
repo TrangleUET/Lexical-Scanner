@@ -1,0 +1,15 @@
+float exampleFunction(boolean var1, int var2) {
+	if(var1) {
+		return (float)var2;
+	} else {
+		return 94e-1;
+	}
+}
+//chu thich
+int main() {
+	boolean b = true;
+	boolean c = !b;
+	int d = 4420;
+	float r = exampleFunction(c, d);
+	return 0;
+}
